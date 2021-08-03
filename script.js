@@ -20,12 +20,12 @@ function compute()
     `<p>If you deposit ${principal},</p>
     <p>at an interest rate of ${rate}%.</p>
     <p>You will receive an amount of ${interest},</p>
-    <p>in the year ${year}.</p>`
+    <p>in the year ${year}.</p>`;
     
 }
 function updateRate()
         {
             var rateval = document.getElementById("rate").value;
-            document.getElementById("rate_val").innerText = rateval+"%";
+            document.getElementById("rate_val").innerText = `${rateval}%`;
         }
         
