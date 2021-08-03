@@ -4,14 +4,14 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container">
+        <div class="container">
             <h1>Simple Interest Calculator</h1>
             <label for="amount">Amount</label>
-            <input type="number"  id="principal">  
+            <input type="number"  id="principal"> <br> 
             <label for="rate">Interest Rate</label>
-            <input type="number"  id="rate">  
+            <input type="range"  min="0" max="100" id="rate"> <br> 
             <label for="years">No. of Years</label>
-            <input type="number"  id="years">  
+            <input type="number" width="30px" id="years"> <br>
             <button onclick="compute()">Compute</button>
             <span id="result"></span>
         </div>
