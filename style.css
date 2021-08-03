@@ -6,9 +6,10 @@ h1{color:grey; font-family:verdana}
 .maindiv {
     background-color: white;
     width: 300px;
+    height: auto;
     padding: 20px;
     border-radius: 25px;
-    text-align: center;
+    position: center;
 }
 .resultStyle {
     font-style: Italic;

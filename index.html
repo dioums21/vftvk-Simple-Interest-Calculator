@@ -14,7 +14,7 @@
             <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()"> 
             <span id="rate_val">10.25%</span><br> 
             <label for="years">No. of Years</label>
-            <select id="years">
+            <select name="years" id="years">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -27,7 +27,9 @@
                 <option value="10">10</option>
             </select> <br>
             <button onclick="compute()">Compute Interest</button>
-            <span id="result" class="resultStyle"></span>
+            <span id="result" class="resultStyle">
+                
+            </span>
         </div>
         <h5>&copy;Everyone Can Get Rich</h5>
         <footer>
