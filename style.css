@@ -10,11 +10,12 @@ h1{
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
+    width: 50%;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 25px;
 }
-/*.resultStyle {
-    font-style: Italic;
-}*/
+.highlight{
+    background-color: yellow
+}
 
