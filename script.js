@@ -1,15 +1,9 @@
-function updateRate()
-{
-    var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText = rateval;
-}
-
 function compute()
 {
     var principal = document.getElementById("principal").value;
     if (principal <= 0) {
         alert("Enter a positive number");
-        fprincipal.focus();
+        principal.focus();
         return false
     }
     return true;
@@ -21,6 +15,12 @@ function compute()
     var interest = principal * (rate/100) * years;
 
     var year = new Date().getFullYear() + parseInt(years);
+
+    function updateRate()
+        {
+            var rateval = document.getElementById("rate").value;
+            document.getElementById("rate_val").innerText = rateval;
+        }
 
     document.getElementById("result").innerHTML = 
     `<p>If you depodit ${principal},</p>
