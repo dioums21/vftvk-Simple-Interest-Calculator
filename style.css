@@ -1,9 +1,12 @@
 body {background-color:black;}
 h1{color:grey; font-weight: bold;}
 .container {
+    background-color: white;
     width: auto;
     height: auto;
     border-radius: 15px;
 }
-
+.resultStyle {
+    font-style: Italic;
+}
 
